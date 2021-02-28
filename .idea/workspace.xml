@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a6763d2-4b75-4bfe-ad98-1a66616be169" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a6763d2-4b75-4bfe-ad98-1a66616be169" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +75,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Validate user can be able add and delete in &quot;&lt;sections&gt;&quot; section" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/dashboard.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber_junit" />
+      <option name="NAME_FILTER" value="^Validate user can be able add and delete in \&quot;.*\&quot; section$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Validate user can be able add and delete in \&quot;.*\&quot; section$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate user can be able add and delete in &quot;&lt;sections&gt;&quot; section" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DashboardRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cucumber_junit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -98,22 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageAccessRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test_automation_interviewPrep" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManageAccessRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DashboardRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Validate user can be able add and delete in &quot;&lt;sections&gt;&quot; section" />
         <item itemvalue="JUnit.LoginRunner" />
         <item itemvalue="Application.CommonPage" />
         <item itemvalue="Application.WebdriverUtils" />
-        <item itemvalue="JUnit.ManageAccessRunner" />
       </list>
     </recent_temporary>
   </component>

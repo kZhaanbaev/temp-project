@@ -38,7 +38,7 @@ Feature: Dashboards
       | Khali |
     Then I click "Delete" button
 
-
+  @test
   Scenario Outline: Validate user can be able add and delete in "<sections>" section
     Given I navigate to Interview Prep
     Then I enter "test@yahoo.com" in the "Enter Username" input box

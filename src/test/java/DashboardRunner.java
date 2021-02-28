@@ -6,10 +6,10 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
         plugin = {"pretty" , "html:target/DashboardRunner",
                 "rerun:target/Rerun_Failed/DashboardRunner.txt"},
-        features = "src/main/resources/features/manageAccess.feature",
+        features = "src/main/resources/features/dashboard.feature",
         glue = {"steps"}
         , stepNotifications = true
-       // tags="@regression"
+        ,tags="@test"
         //   tags="@regression and @shakeout"
 )
 
