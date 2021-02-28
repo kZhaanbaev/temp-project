@@ -5,7 +5,8 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty" , "html:target/DashboardRunner",
-                "rerun:target/Rerun_Failed/DashboardRunner.txt"},
+                "rerun:target/Rerun_Failed/DashboardRunner.txt",
+                "json:target/cucumberTestReport.json"},
         features = "src/main/resources/features/dashboard.feature",
         glue = {"steps"}
         , stepNotifications = true
